@@ -67,7 +67,7 @@ exclude_lines = [
 
 
 [tool.poetry.urls]
-homepage = "https://github.com/santiago897/NO_WEIRD_PROJECT"
+homepage = "https://github.com/santiago897/no_weird_project"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]

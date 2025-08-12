@@ -490,8 +490,8 @@ Please ensure:
 
 ```bash
 # Clone the repository
-git clone https://github.com/santiago897/no-weird-utils.git
-cd no-weird-utils
+git clone https://github.com/santiago897/no_weird_project.git
+cd no_weird_project
 
 # Install in development mode with all dependencies
 poetry install --with test
@@ -514,8 +514,8 @@ python run_tests.py
 
 ```bash
 # Clone the repo
-git clone https://github.com/santiago897/no-weird-utils.git
-cd no-weird-utils
+git clone https://github.com/santiago897/no_weird_project.git
+cd no_weird_project
 
 # Install with development dependencies
 pip install -e .[timezone]
@@ -547,9 +547,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 🔗 Links
 
 - **PyPI**: https://pypi.org/project/no-weird-utils/
-- **GitHub**: https://github.com/santiago897/noWeirdUtils
+- **GitHub**: https://github.com/santiago897/no_weird_project
 - **Documentation**: Coming soon!
-- **Issues**: https://github.com/santiago897/noWeirdUtils/issues
+- **Issues**: https://github.com/santiago897/no_weird_project/issues
 
 ---
 
