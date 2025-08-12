@@ -175,3 +175,6 @@ cython_debug/
 
 # lock files
 poetry.lock
+
+# Local installation and test file
+local_installation_test.py
