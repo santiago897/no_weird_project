@@ -4,9 +4,14 @@ version = "0.1.0"
 description = "Lightweight, fun named utilities for number formatting, unit conversions and unix time handling."
 authors = ["Santiago Matta <santiagomatta@outlook.cl>"]
 readme = "README.md"
+packages = [
+    { include = "metricFTW" },
+    { include = "noWeirdNumbersPls" },
+    { include = "quanticTime" }
+]
 classifiers = [
 	"Programming Language :: Python :: 3",
-	"Programming Language :: Python :: 3.8",
+	"Programming Language :: Python :: 3.9",
 	"License :: OSI Approved :: MIT License",
 	"Operating System :: OS Independent",
 	"Development Status :: 4 - Beta",
@@ -15,7 +20,7 @@ classifiers = [
 ]
 
 [tool.poetry.dependencies]
-python = ">=3.8"
+python = ">=3.9"
 pytz = { version = "^2025.2", optional = true }
 numpy = { version = "^1.25", optional = true }
 
@@ -23,11 +28,6 @@ numpy = { version = "^1.25", optional = true }
 [tool.poetry.extras]
 timezone = ["pytz"]
 fastmetric = ["numpy"]
-
-
-[tool.poetry.dev-dependencies]
-pytest = "^7.0"
-pytest-cov = "^4.0"
 
 [tool.poetry.group.test.dependencies]
 pytest = "^7.0"
